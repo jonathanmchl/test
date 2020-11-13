@@ -41,6 +41,12 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// E.g.:
 		// $this->session = \Config\Services::session();
+
+
+		$this->nama="jonathan";
+		$this->npm="1817051064";
+		$this->db = db_connect();
+
 	}
 
 }
